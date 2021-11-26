@@ -6,7 +6,7 @@ try:
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system("pip2 install requests")
-    os.system("python2 Best.py")
+    os.system("python2 RAKA-03.py")
 os.system("clear")
 """
 try:
@@ -17,7 +17,7 @@ except requests.exceptions.ConnectionError:
     print("")
     time.sleep(1)
     raw_input(" Press enter to try again ")
-    os.system("python2 new.py")"""
+    os.system("python2 RAKA-03.py")"""
 if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
     os.system("apt update && apt install nodejs -y")
 if not os.path.isfile("/data/data/com.termux/files/usr/bin/ruby"):
